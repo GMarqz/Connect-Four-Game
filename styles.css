@@ -1,0 +1,22 @@
+@import url(styles/mainMenu.css);
+
+:root {
+    --main-color: #5C2DD5;
+    --secondary-color: #7945FF;
+    --black: #000000;
+    --red: #FD6687;
+    --white: #FFFFFF;
+    --yellow: #FFCE67;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
