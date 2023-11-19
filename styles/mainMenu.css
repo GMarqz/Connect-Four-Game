@@ -1,0 +1,49 @@
+@import url(./root.css);
+
+.container {
+    margin: 12.69rem 1.25rem 12.62rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.87rem;
+}
+
+.game__logo {
+    margin-bottom: 4.94rem;
+}
+
+button {
+    width: 20.9375rem;
+    height: 4.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0px 10px var(--black);
+    border: 3px solid var(--black);
+    text-align: start;
+    font-size: 1.30rem;
+    font-weight: 700;
+    letter-spacing: -0.125rem;
+    cursor: pointer;
+}
+
+p {
+    margin-left: 1.25rem;
+}
+
+.container__button__vscpu {
+    background: var(--third-color);
+    background-image: url(../assets/images/player-vs-cpu.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    color: var(--white);
+}
+.container__button__vsplayer {
+    background: var(--fourth-color);
+    background-image: url(../assets/images/player-vs-player.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+.container__button__rules {
+    background: var(--white);
+}

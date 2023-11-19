@@ -1,0 +1,56 @@
+@import url(../ingame.css);
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3.13rem;
+}
+
+.players__player-one, .players__player-two {
+    width: 8.875rem;
+    height: 5.0625rem;
+
+    border-radius: 1.25rem;
+    border: 3px solid var(--black);
+    background: var(--white);
+    box-shadow: 0px 10px 0px 0px var(--black);
+
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.players__player-one {
+    margin-left: 2.25rem;
+}
+
+.players__player-two {
+    margin-right: 2.12rem;
+}
+
+.ingame__main__player-one, .ingame__main__player-two {
+    color: var(--black);
+    margin: 0.62rem 2.25rem auto 2.25rem;
+    text-transform: uppercase; 
+    
+}
+
+.ingame__main__points__player-one, .ingame__main__points__player-two {
+    margin: auto 3.37rem auto 3.37rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.players img {
+    position: relative;
+    bottom: 3.75rem;
+}
+
+.img__player-one {
+    right: 1.5rem;
+}
+
+.img__player-two {
+    left: 7.25rem;
+}

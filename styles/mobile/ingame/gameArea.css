@@ -1,0 +1,54 @@
+.board__layer-black, .board__layer-white {
+    width: 20.9375rem;
+    margin: auto 1.25rem;
+}
+
+.board__layer-white {
+    height: 19.375rem;
+    position: relative;
+    bottom: 20rem;
+}
+
+.board__layer-black {
+    height: 20rem;
+}
+
+.counter__player-one, .counter__player-two {
+    width: 11.9375rem;
+    height: 9.375rem;
+
+    margin: auto 5.81rem auto 5.69rem;
+    position: relative;
+    bottom: 25.375rem;
+}
+
+.counter__player-one-turn, .counter__player-one-turn-time,
+.counter__player-two-turn, .counter__player-two-turn-time {
+    position: relative;
+    top: 5rem;
+    right: 0.5rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.counter__player-one-turn,
+.counter__player-two-turn {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    top: 8rem;
+}
+
+.counter__player-one-turn-time,
+.counter__player-two-turn-time {
+    font-size: 3.5rem;
+    position: relative;
+    top: 8.375rem;
+}
+
+
+.counter__player-two-turn, .counter__player-two-turn-time  {
+    color: var(--black);
+}  
+

@@ -1,0 +1,11 @@
+@import url(./styles/root.css);
+@import url(./styles/mainMenu.css);
+@import url(./styles/rules.css);
+@import url(./styles/pauseMenu.css);
+@import url(./styles/mobile/ingame.css);
+
+body {
+    background-color: var(--main-color);
+    font-family: var(--font);
+    height: 100vh;
+}

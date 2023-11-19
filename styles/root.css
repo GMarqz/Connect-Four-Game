@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+    --main-color: #7945FF;
+    --secondary-color: #5C2DD5;
+    --third-color: #FD6687;
+    --fourth-color: #FFCE67;
+    --black: #000000;
+    --white: #ffffff;
+
+    --font: 'Space Grotesk', sans-serif;
+}

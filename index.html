@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
+  
+  <title>Frontend Mentor | Connect Four game</title>
+</head>
+<body>
+
+   <!-- ////////////////////////////////////////////MAIN MENU/////////////////////////////////////
+    <div class="container">
+      <img src="./assets/figma/Group 12.svg" alt="Game's Logo" width="52px" height="52px" class="game__logo">
+      <button class="container__button__vscpu">
+        <p>PLAYER VS CPU</p>
+      </button>
+      <button class="container__button__vsplayer">
+        <p>PLAYER VS PLAYER</p>
+      </button>
+      <button class="container__button__rules">
+        <p>GAME RULES</p>
+      </button>
+    </div> -->
+
+
+    <!-- ////////////////////////////////////////RULES//////////////////////////////////////
+    <section class="container__rules">
+    
+      <h2 class="container__rules-htwo">RULES</h2>
+
+      <h3>OBJECTIVE</h3>
+
+        <p class="container_rules_paragraph">Be the first player to connect 4 of the same colored discs in a row (either 
+          vertically, horizontally, or diagonally).
+        </p>
+      <h3>HOW TO PLAY</h3>
+      <div class="lista">
+        <div class="list">
+          <span>Red goes first in the first game.</span>
+        </div>
+        <div class="list">
+          <span>Players must alternate turns, and only one disc can be dropped in each turn.</span>
+        </div>
+        <div class="list">
+          <span>The game ends when there is a 4-in-a-row or a stalemate.</span>
+        </div>
+        <div class="list">
+          <span>The starter of the previous game goes second on the next game.</span>
+        </div>
+      </div>
+
+      <div class="button__check">
+        <img src="./assets/images/icon-check.svg" alt="check" class="icon__check">
+      </div>
+  </section>
+-->
+
+<!-- ///////////////////////////////////////PAUSE MENU/////////////////////////////////////
+<div class="pause__menu">
+  <h2>PAUSE</h2>
+  <button class="continue__btn">CONTINUE GAME</button>
+  <button class="restart__btn">RESTART</button>
+  <button class="quit__btn">QUIT GAME</button>
+</div>
+-->
+
+<main class="ingame">
+  <header class="ingame__header">
+    <button class="ingame__header__menu-btn">MENU</button>
+    <img src="./assets/images/logo.svg" alt="Game's Logo" class="ingame__header__logo">
+    <button class="ingame__header__restart-btn">RESTART</button>
+  </header>
+
+  <section class="ingame__main">
+    <div class="players">
+      <div class="players__player-one">
+        <p class="ingame__main__player-one">Player 1</p>
+        <p class="ingame__main__points__player-one">0</p>
+        <img src="./assets/images/player-one.svg" class="img__player-one">
+      </div>
+      <div class="players__player-two">
+        <p class="ingame__main__player-two">Player 2</p>
+        <p class="ingame__main__points__player-two">0</p>
+        <img src="assets/images/player-two.svg" class="img__player-two">
+      </div>
+    </div>
+    <img src="./assets/images/board-layer-black-small.svg" alt="" class="board__layer-black">
+    <img src="./assets/images/board-layer-white-small.svg" alt="" class="board__layer-white">
+
+    <!--///////////////PLAYER ONE COUNTER///////
+    <div class="counter__player-one">
+      <p class="counter__player-one-turn">Players 1's turn</p>
+      <p class="counter__player-one-turn-time">15s</p>
+      <img src="./assets/images/turn-background-red.svg" alt="Player 1 turn">
+    </div>
+  -->
+    
+    <!--/////////////PLAYER TWO COUNTER////////////
+    <div class="counter__player-two">
+      <p class="counter__player-two-turn">Players 2's turn</p>
+      <p class="counter__player-two-turn-time">15s</p>
+      <img src="./assets/images/turn-background-yellow.svg" alt="Player 2 turn">
+    </div>
+    -->
+
+    <div class="retangule"></div>
+    <div class="winner__warning"></div>
+
+
+  </section>
+</main>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+ <!-- 
+
+   
+   Play vs player
+   Game rules
+
+
+  
+
+  Pause
+
+  Continue game
+  Restart
+  Quit game
+
+
+  Menu
+  Restart
+
+  Player 1
+  Player 2
+
+  Player 1's turn
+  Player 2's turn
+
+  Wins
+  Play again
+
+ -->

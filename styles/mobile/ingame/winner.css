@@ -1,0 +1,28 @@
+.retangule {
+    width: 23.4375rem;
+    height: 14.75rem;
+    background-color: var(--secondary-color);
+    border-radius: 3.75rem 3.75rem 0rem 0rem;
+}
+
+.winner__warning {
+    width: 17.8125rem;
+    height: 10rem;
+
+    border-radius: 1.25rem;
+    border: 3px solid var(--black);
+    background-color: var(--white);
+    box-shadow: 0px 10px 0px 0px var(--black);
+
+    position: relative;
+    bottom: 20rem;
+}
+
+/*
+///////////////AVISO///////////////
+
+-Apesar de estar usando o "position: relative;", o 'espaço' que é criado no HTML pra "<div class="winner__warning">" continua lá, por isso há uma espaço embaixo da "<div class="retangule">"
+-O mesmo parece estar acontecendo com as "<div class="counter__player-one">" e "<img src="./assets/images/board-layer-black-small.svg" alt="" class="board__layer-black">" (/styles/mobile/ingame/gameArea.css)
+-Boa sorte pra resolver isso aí meu consagrado :D
+
+*/
