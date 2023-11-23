@@ -14,20 +14,20 @@
 </head>
 <body>
 
-   <!-- ////////////////////////////////////////////MAIN MENU/////////////////////////////////////
+   <!-- ////////////////////////////////////////////MAIN MENU/////////////////////////////////////-->
+
     <div class="container">
       <img src="./assets/figma/Group 12.svg" alt="Game's Logo" width="52px" height="52px" class="game__logo">
-      <button class="container__button__vscpu">
+      <button class="container__button__vscpu" id="container__button__vscpu">
         <p>PLAYER VS CPU</p>
       </button>
       <button class="container__button__vsplayer">
         <p>PLAYER VS PLAYER</p>
       </button>
-      <button class="container__button__rules">
+      <button class="container__button__rules" id="container__button__rules">
         <p>GAME RULES</p>
       </button>
-    </div> -->
-
+    </div> 
 
     <!-- ////////////////////////////////////////RULES//////////////////////////////////////
     <section class="container__rules">
@@ -70,6 +70,7 @@
 </div>
 -->
 
+<!--///////////////////////////////////////INGAME/////////////////////////////////////
 <main class="ingame">
   <header class="ingame__header">
     <button class="ingame__header__menu-btn">MENU</button>
@@ -93,6 +94,8 @@
     <img src="./assets/images/board-layer-black-small.svg" alt="" class="board__layer-black">
     <img src="./assets/images/board-layer-white-small.svg" alt="" class="board__layer-white">
 
+    -->
+
     <!--///////////////PLAYER ONE COUNTER///////
     <div class="counter__player-one">
       <p class="counter__player-one-turn">Players 1's turn</p>
@@ -103,20 +106,29 @@
     
     <!--/////////////PLAYER TWO COUNTER////////////
     <div class="counter__player-two">
-      <p class="counter__player-two-turn">Players 2's turn</p>
+      <p class="counter__player-two-turn">Player 2's turn</p>
       <p class="counter__player-two-turn-time">15s</p>
       <img src="./assets/images/turn-background-yellow.svg" alt="Player 2 turn">
     </div>
     -->
-
+    
+    <!--
     <div class="retangule"></div>
-    <div class="winner__warning"></div>
+    <div class="winner__warning">
+      <p class="winner__pointed">Player 1</p>
+      <p class="wins">Wins</p>
+      <button class="play-again">
+        Play Again
+      </button>
+    </div>
+    -->
+
 
 
   </section>
 </main>
  
-  <script src="main.js"></script>
+  <script type="module" src="main.js"></script>
 </body>
 </html>
 
