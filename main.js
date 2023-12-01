@@ -1,5 +1,8 @@
 
-import { teste } from "./js/buttons.js";
+import makeRules from "./js/buttons.js";
 
-console.log(teste);
+const botao = document.getElementById('container__button__rules');
 
+botao.addEventListener('click', makeRules);
+
+  
